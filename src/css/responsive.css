@@ -1,0 +1,146 @@
+
+
+/* responsivo */
+@media screen and (max-width: 830px){
+    
+    .chamada1{
+        text-align: center;
+        width: 100%;
+        max-width: none;
+        float: none;
+        margin: 100px 0;
+    }
+    
+    .chamada1 h2{
+        font-size: 30px;
+        padding: 0 10px;
+    }
+    
+    .chamada1 p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header{
+        width: 100%;
+        height: auto;
+        min-height: 85vh;
+        padding: 40px 2%;
+    }
+    
+    nav.menu{
+        display: none;
+    }
+    
+    nav.menu-mobile{
+        display: block;
+    }
+
+    section.sessao1{
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .sessao1-texto{
+        margin-top: 0;
+        padding: 0;
+        position: static;
+        float: none;
+        display: inline-block;
+    }
+
+    .sessao1-texto h2{
+        font-size: 24px;
+    }
+
+    .sessao1-texto p{
+        margin: 5px 0 20px 0;
+    }
+
+    .sessao1-texto ul{
+        list-style: none;
+        text-decoration:underline;
+    }
+
+    .sessao1-texto ul li{
+        float: none;
+    }
+
+    .sessao1-device{
+        display: none;
+    }
+
+    .sessao2{
+        padding-top: 40px 2%;
+    }
+
+    .sessao2 h2{
+        margin-top: 40px;
+    }
+
+    .botao-contato{
+        display: inline-block;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    section.sessao4 .center{
+        text-align: center;
+    }
+    
+    .form{
+        width: 100%;
+        float: none;
+    }
+
+    .form p{
+        display: inline-block;
+    }
+
+    .map-wraper{
+        width: 100%;
+        float: none;
+        margin-top: 40px;
+        padding: 0 10%;
+    }
+
+    .map-wraper3{
+        display: inline-block;
+        max-width: none;
+        width: 100%;
+        padding-top: 80%;
+    }
+
+    .map-wraper2{
+        display: inline-block;
+        padding-top: 0;
+        height: 100%; 
+    }
+
+}
+
+@media screen and (max-width: 590px){
+
+    .parte1{
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .parte2{
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .sessao2 img{
+        top: 16px;
+        margin-top:20px;
+    }
+
+}
